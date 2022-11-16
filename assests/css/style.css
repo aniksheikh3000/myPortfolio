@@ -21,11 +21,14 @@ section div img{
     width:100%;
     height:100%;
     position: relative;
-    right:70px;
+ 
     
 
    
 }
+
+
+
 #text-head{
     position: relative;
     left:100px;
@@ -76,3 +79,85 @@ a{
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (min-width: 375px) {
+    body {font-family: 'PT Serif', serif;
+    
+    }
+    heading{
+        margin:0;
+        padding:0;
+        height:600px;
+        margin-bottom: 200px;
+        background-image: url("../images/header-bg.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+       
+    }
+    section div{
+        height: 100%;
+        width:40%;
+        float:left;
+        
+    }
+    section div img{
+        width:100%;
+        height:100%;
+        position: relative;
+        margin-bottom: 100px;
+        display: block;
+    
+       
+    }
+    #text-head{
+        position: relative;
+        left:100px;
+        top:200px;
+        flex-wrap: wrap;
+    }
+    
+    h1{
+        color:#696768;
+    }
+    a{
+        text-decoration: none;
+        background-image: linear-gradient(45deg,hsl(328, 61%, 55%),#ff1493);
+        padding:10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight:700;
+    }
+    .biography{
+        margin-left:30px;
+        padding-left:30px;
+        height:600px;
+        margin-bottom: 200px;
+        background-image: url("../images/biography-bg.png");
+        background-repeat: no-repeat;
+       
+    }
+    .color-div{
+        border-radius: 7px;
+        margin: auto;
+        height: 90px;
+        width: 500px;
+        background-color: #ff1493;
+    }
+    
+    
+       
+    .client{
+        margin-top: 200px;
+        width:100%;
+        height:500px;
+        flex-wrap: wrap;
+        background-size:cover;
+        background-image:url("../images/footer-bg2.png");
+        background-repeat: no-repeat;
+    }
+    .container img{
+        width: 100%;
+        height: 100%;
+    }
+
+  }
